@@ -1,61 +1,54 @@
-/* --- Estilos Generales --- */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Un fondo gris claro para que el contenido resalte */
-    color: #333; /* Un color de texto más suave que el negro puro */
+    background-color: #f4f4f4; 
+    color: #333; 
     text-align: center;
 }
 
-/* --- Contenedor Principal --- */
-/* 
-  Aunque no tienes un div contenedor, podemos simular uno aplicando estilos
-  directamente a las etiquetas <main> y <footer> para que se vean centradas y con fondo.
-*/
 main, footer {
     max-width: 800px;
-    margin: 20px auto; /* Centra los bloques */
+    margin: 20px auto; 
     padding: 25px;
-    background-color: #ffffff; /* Fondo blanco para el contenido */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
-    border-radius: 8px; /* Bordes redondeados */
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
 }
-
 /* --- Encabezados y Texto --- */
 h1 {
-    color: #2c3e50; /* Un azul oscuro y profesional */
+    color: #2c3e50;
     font-size: 2.8rem;
     margin-bottom: 10px;
 }
-
+/*--- Subtitulos---*/
 h3 {
-    color: #3498db; /* Un azul más brillante para subtítulos */
+    color: #3498db; 
     font-weight: 400;
     font-size: 1.5rem;
 }
 
-/* Estilo para la etiqueta <p1> (aunque no es estándar, podemos estilizarla) */
+/* Texto del parrafo*/
 p1 {
-    display: block; /* La hacemos un bloque para que ocupe su propio espacio */
+    display: block; 
     color: #555;
     font-size: 1.1rem;
     margin-top: 20px;
 }
 
-/* --- Imagen --- */
+/* --- Imágenes --- */
 img {
-    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    max-width: 100%; 
     height: auto;
-    border-radius: 8px; /* Bordes redondeados para la imagen */
+    border-radius: 8px; 
     margin-top: 20px;
 }
 
 /* --- Footer --- */
 footer a {
     color: #3498db;
-    text-decoration: none; /* Quitamos el subrayado */
+    text-decoration: none; 
     font-weight: bold;
     transition: color 0.3s ease; /* Transición suave al pasar el mouse */
 }
@@ -63,3 +56,4 @@ footer a {
 footer a:hover {
     color: #2980b9; /* Un azul un poco más oscuro al pasar el mouse */
 }
+
